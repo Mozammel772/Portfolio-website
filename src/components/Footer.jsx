@@ -1,4 +1,3 @@
-import { ArrowUpRight } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Container from "./Container";
@@ -52,23 +51,23 @@ const Footer = () => {
           <p className="text-base md:text-xl uppercase font-medium max-w-sm text-center mb-5">
             Sign up for all the latest news and offers
           </p>
-          <div className="border border-white/40 bg-[#161616] flex items-center ">
+          {/* <div className="border border-white/40 bg-[#161616] flex items-center w-full mx-auto ">
             <input
               type="email"
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your mail"
-              className="bg-transparent outline-none border-r border-r-white/40 py-2 px-6 text-white placeholder:text-white/60 flex-1 min-w-72"
+              className="bg-transparent outline-none border-r border-r-white/40 py-2 px-6 text-white placeholder:text-white/60 flex-1 min-w-60"
               required
             />
             <button
               type="submit"
-              className="px-2 flex items-center gap-1 text-white/80 hover:text-green-500 duration-300"
+              className=" flex items-center gap-1 text-white/80 hover:text-green-500 duration-300"
             >
               <span>Subscribe</span> <ArrowUpRight size={10} />
             </button>
-          </div>
+          </div> */}
         </form>
         <div className="flex flex-col gap-5 md:items-end">
           {leftArray?.map((item) => (

@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <div
-      className={`h-20 w-full text-whiteText/80 fixed top-0 left-0 z-50 duration-300 ${
+      className={`h-20 w-full text-white Text/80 fixed top-0 left-0 z-50 duration-300 ${
         isScrolled ? "bg-blackText" : "bg-transparent"
       }`}
     >

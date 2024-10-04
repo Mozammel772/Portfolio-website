@@ -8,7 +8,7 @@ import { Testimonials } from "./components/Testimonials";
 
 function App() {
   return (
-    <main className="relative">
+    <main className="relative mx-auto">
       <Header />
       <Banner />
       <Services />
