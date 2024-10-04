@@ -1,7 +1,7 @@
+import { ArrowUpRight } from "lucide-react";
 import React from "react";
 import { leftLayer, rightLayer } from "../assets";
 import Container from "./Container";
-import { ArrowUpRight } from "lucide-react";
 
 const Banner = () => {
   return (
