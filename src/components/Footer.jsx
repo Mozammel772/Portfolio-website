@@ -1,8 +1,7 @@
-import React from "react";
-import Container from "./Container";
-import { Link } from "react-scroll";
 import { ArrowUpRight } from "lucide-react";
-import { useState } from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import Container from "./Container";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -26,6 +25,7 @@ const Footer = () => {
     window.alert("Subscribed Successfully!");
     setEmail("");
   };
+  const date = new Date().getFullYear();
   return (
     <footer className="bg-[#0F0F0F] py-10 md:py-20 text-white/80">
       <Container className="grid grid-cols-1 md:grid-cols-6 gap-10 md:gap-5">
@@ -87,6 +87,12 @@ const Footer = () => {
           ))}
         </div>
       </Container>
+      <div className="text-center font-semibold mx-auto py-5">
+        <p>
+          Copyright © {date} - All right reserved by{" "}
+          <span className="text-secondary">Mozammel Hosen</span>
+        </p>
+      </div>
     </footer>
   );
 };

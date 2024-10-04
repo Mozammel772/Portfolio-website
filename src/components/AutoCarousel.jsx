@@ -1,6 +1,4 @@
 import React from "react";
-import { Card, Carousel } from "./ui/cards";
-import SectionTitle from "./SectionTitle";
 import {
   featureDeal,
   featureFour,
@@ -8,6 +6,8 @@ import {
   featureThree,
   featureTwo,
 } from "../assets";
+import SectionTitle from "./SectionTitle";
+import { Card, Carousel } from "./ui/cards";
 
 export function AutoCarousel() {
   const cards = data.map((card, index) => (
@@ -59,33 +59,33 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Fashion next stage",
-    title: "You can do more with AI.",
+    category: "WordPress",
+    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. ",
     src: featureDeal,
     content: <DummyContent />,
   },
   {
-    category: "Summer Sadness",
-    title: "Enhance your productivity.",
+    category: "ReactJS",
+    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     src: featureTwo,
     content: <DummyContent />,
   },
   {
-    category: "Drowning Aqua Silk",
-    title: "Launching the new Apple Vision Pro.",
+    category: "JavaScript",
+    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
     src: featureThree,
     content: <DummyContent />,
   },
 
   {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
+    category: "HTML & CSS",
+    title: "orem ipsum dolor sit amet, consectetur adipisicing elit.",
     src: featureFour,
     content: <DummyContent />,
   },
   {
-    category: "iOS",
-    title: "Photography just got better.",
+    category: "API",
+    title: "orem ipsum dolor sit amet, consectetur adipisicing elit.",
     src: featureOne,
     content: <DummyContent />,
   },

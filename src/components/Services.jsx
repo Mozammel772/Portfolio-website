@@ -1,15 +1,16 @@
 import React from "react";
+import { camera, camera2, gallery, video } from "../assets/index";
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
-import { camera, camera2, gallery, video } from "../assets/index";
 import { AnimatedCard } from "./ui/AnimatedCard";
 
 const Services = () => {
   const ServicesData = [
-    { id: "01", title: "Outdoor Photography", image: camera2 },
-    { id: "02", title: "Personal Photography", image: gallery },
-    { id: "03", title: "Studio Photography", image: camera },
-    { id: "04", title: "Wildlife Photography", image: video },
+    { id: "01", title: "E-Commerce!", image: camera2 },
+    { id: "02", title: "Booking Website", image: gallery },
+    { id: "03", title: "Grow Business Idea", image: camera },
+    { id: "04", title: "Hospital Management", image: video },
+    { id: "04", title: "Hotel Management!", image: video },
   ];
   return (
     <section
@@ -21,17 +22,16 @@ const Services = () => {
 
         <div className="flex flex-col gap-5 md:flex-row md:items-center justify-between">
           <h2 className="flex flex-col gap-1 text-5xl font-semibold">
-            My Photography{" "}
+            My Developer{" "}
             <span className="font-semibold text-white/80 italic font-titleFont">
               Services
             </span>
           </h2>
           <p className="max-w-xl text-white/80 tracking-wide text-lg">
-            we’re deeply passionate{" "}
-            <span className="text-white font-semibold">
-              catch your lovely memories in cameras
-            </span>{" "}
-            and Convey your love for every moment of life as a whole.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+            suscipit tenetur eum corrupti illo nostrum, minus distinctio ad odit
+            corporis, quidem reiciendis possimus. Quisquam optio earum
+            voluptatem corrupti eaque expedita?.
           </p>
         </div>
 

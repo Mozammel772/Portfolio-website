@@ -9,7 +9,7 @@ const SectionTitle = ({ no, title, className }) => {
         className
       )}
     >
-      {no} <span className=" tracking-widest px-1">//</span>{" "}
+      {no} <span className="tracking-widest px-2">//</span>{" "}
       <span className="text-white font-medium">{title}</span>
     </p>
   );

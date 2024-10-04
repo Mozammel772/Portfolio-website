@@ -2,7 +2,7 @@ import { AutoCarousel } from "./AutoCarousel";
 
 const Features = () => {
   return (
-    <section id="features">
+    <section id="features" >
       <AutoCarousel />
     </section>
   );

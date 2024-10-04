@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { logoDark } from "../assets";
-import Container from "./Container";
-import { Menu } from "lucide-react";
+import { Dialog, DialogPanel } from "@headlessui/react";
+import { Menu, X } from "lucide-react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { navigation } from "../constants";
-import { Dialog, DialogPanel } from "@headlessui/react";
-import { X } from "lucide-react";
+import Container from "./Container";
 import SocialLinks from "./SocialLinks";
 
 const Header = () => {
@@ -38,7 +36,8 @@ const Header = () => {
       }`}
     >
       <Container className="h-full flex items-center justify-between">
-        <img src={logoDark} alt="logoDark" className="w-32" />
+        <h1 className="text-3xl font-bold ">Mozammel Hosen</h1>
+        {/* <img src={logoDark} alt="logoDark" className="w-32" /> */}
         <div className="hidden md:inline-flex items-center gap-x-6 uppercase text-xs lg:text-sm font-medium tracking-wide">
           {navigation?.map((item) => (
             <Link

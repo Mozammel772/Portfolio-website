@@ -1,7 +1,6 @@
+import { Quote, Star } from "lucide-react";
+import { featureDeal } from "../assets/index";
 import { Tabs } from "../components/ui/tabs";
-import { featureDeal, featureOne } from "../assets/index";
-import { Star } from "lucide-react";
-import { Quote } from "lucide-react";
 
 export function Testimonials() {
   const tabs = [
@@ -50,7 +49,7 @@ export function Testimonials() {
       value: "random",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-redBg to-lightDarkBg">
-          <p>Random tab</p>
+          <p>Random tabs</p>
           <DummyContent />
         </div>
       ),

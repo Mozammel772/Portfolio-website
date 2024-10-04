@@ -1,8 +1,7 @@
-import React from "react";
-import Container from "./Container";
-import { useState } from "react";
-import { ColorRing } from "react-loader-spinner";
 import { motion } from "framer-motion";
+import React, { useState } from "react";
+import { ColorRing } from "react-loader-spinner";
+import Container from "./Container";
 
 const Contact = () => {
   const [status, setStatus] = useState("");
@@ -20,6 +19,7 @@ const Contact = () => {
       [e.target.name]: e.target.value,
     });
   };
+ 
   const scriptURL = "";
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -95,8 +95,7 @@ const Contact = () => {
             <div className="text-center text-white">
               <h3 className="text-4xl font-semibold">Get In Touch</h3>
               <p className="text-base font-normal text-white/80 mt-5">
-                Contact us for a great photography session & beautiful captured
-                moments
+                Contact us for a professional ReactJs & Wordpress Developer
               </p>
             </div>
             <form
@@ -167,6 +166,7 @@ const Contact = () => {
             </form>
           </>
         )}
+        
       </Container>
     </section>
   );
