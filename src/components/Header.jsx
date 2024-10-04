@@ -36,7 +36,7 @@ const Header = () => {
       }`}
     >
       <Container className="h-full flex items-center justify-between">
-        <h1 className="text-3xl font-bold ">Mozammel Hosen</h1>
+        <h1 className="text-xl font-bold ">Mozammel Hosen</h1>
         {/* <img src={logoDark} alt="logoDark" className="w-32" /> */}
         <div className="hidden md:inline-flex items-center gap-x-6 uppercase text-xs lg:text-sm font-medium tracking-wide">
           {navigation?.map((item) => (

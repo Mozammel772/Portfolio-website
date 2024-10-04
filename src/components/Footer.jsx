@@ -64,9 +64,9 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="px-4 flex items-center gap-1 text-white/80 hover:text-green-500 duration-300"
+              className="px-2 flex items-center gap-1 text-white/80 hover:text-green-500 duration-300"
             >
-              <span>Subscribe</span> <ArrowUpRight size={15} />
+              <span>Subscribe</span> <ArrowUpRight size={10} />
             </button>
           </div>
         </form>
